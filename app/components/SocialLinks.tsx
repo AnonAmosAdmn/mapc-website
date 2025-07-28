@@ -2,28 +2,38 @@
 'use client'
 import React from "react";
 import { Flex, Link as RadixLink, IconButton } from "@radix-ui/themes";
-import { GitHubLogoIcon, LinkedInLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
+import { 
+    GitHubLogoIcon, 
+    LinkedInLogoIcon, 
+    TwitterLogoIcon,
+    DiscordLogoIcon 
+} from "@radix-ui/react-icons";
 
 export default function SocialLinks() {
     return (
-        
         <Flex gap="4" mt="6">
-            <RadixLink href="https://github.com/MAPC" target="_blank">
-            <IconButton variant="outline" size="3">
-                <GitHubLogoIcon />
-            </IconButton>
+            <RadixLink href="https://github.com/MAPC" target="_blank" rel="noopener noreferrer">
+                <IconButton variant="outline" size="4">
+                    <GitHubLogoIcon />
+                </IconButton>
             </RadixLink>
 
-            <RadixLink href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank">
-            <IconButton variant="outline" size="3">
-                <LinkedInLogoIcon />
-            </IconButton>
+            <RadixLink href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank" rel="noopener noreferrer">
+                <IconButton variant="outline" size="4">
+                    <LinkedInLogoIcon />
+                </IconButton>
             </RadixLink>
 
-            <RadixLink href="https://www.twitter.com/MAPC/" target="_blank">
-            <IconButton variant="outline" size="3">
-                <TwitterLogoIcon />
-            </IconButton>
+            <RadixLink href="https://www.twitter.com/MAPC/" target="_blank" rel="noopener noreferrer">
+                <IconButton variant="outline" size="4">
+                    <TwitterLogoIcon />
+                </IconButton>
+            </RadixLink>
+
+            <RadixLink href="https://discord.gg/your-discord-invite" target="_blank" rel="noopener noreferrer">
+                <IconButton variant="outline" size="4">
+                    <DiscordLogoIcon />
+                </IconButton>
             </RadixLink>
         </Flex>
     );
