@@ -55,7 +55,7 @@ export default function Home() {
 
           <Box position="relative" height="300px" width="100%" mb="8">
             <Image
-              src="/banner2.png"
+              src="/banner_1.gif"
               alt="MAPC Banner 2"
               fill
               style={{ objectFit: "cover" }}
