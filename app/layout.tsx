@@ -6,7 +6,7 @@ import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
+import Stars from "./components/Stars";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -48,6 +48,7 @@ export default function RootLayout({
         >
           <div className="flex flex-col min-h-screen">
             <Navbar />
+            <Stars />
             {children}
             <Footer/>
           </div>
