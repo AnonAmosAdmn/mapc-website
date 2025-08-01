@@ -26,7 +26,7 @@ const InstagramIcon = () => (
 export default function SocialLinks() {
     return (
         <Flex gap="4" mt="6">
-            <RadixLink href="https://x.com/monadapepunks" target="_blank" rel="noopener noreferrer">
+            <RadixLink href="https://x.com/MonadAPC" target="_blank" rel="noopener noreferrer">
                 <IconButton variant="outline" size="4">
                     <TwitterLogoIcon />
                 </IconButton>
