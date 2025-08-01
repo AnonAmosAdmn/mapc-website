@@ -5,7 +5,7 @@ import React from "react";
 export default function Footer() {
     return (
         <footer className="w-full px-6 py-4 mt-8 border-t text-center text-sm bg-black text-white">
-            © {new Date().getFullYear()} Monad Ape Punks Club
+            © {new Date().getFullYear()} Ape Punks
         </footer>
     );
 }
