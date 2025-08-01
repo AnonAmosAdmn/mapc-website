@@ -52,7 +52,7 @@ function Navbar() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "text-xl font-bold text-white",
-                children: "MAPC"
+                children: "APE PUNKS"
             }, void 0, false, {
                 fileName: "[project]/app/components/Navbar.tsx",
                 lineNumber: 10,
@@ -62,7 +62,7 @@ function Navbar() {
                 className: "space-x-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "https://monad-ape-punks-club.vercel.app/",
+                        href: "https://ape-punks.vercel.app/",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "text-white hover:underline",
@@ -84,7 +84,7 @@ function Navbar() {
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "https://mapc-staking.vercel.app",
+                        href: "https://ape-punks-staking.vercel.app",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "text-white hover:underline",
@@ -95,7 +95,7 @@ function Navbar() {
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "https://mapc-market.vercel.app",
+                        href: "https://ape-punks-market.vercel.app",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "text-white hover:underline",
@@ -147,7 +147,7 @@ function Footer() {
         children: [
             "© ",
             new Date().getFullYear(),
-            " Monad Ape Punks Club"
+            " Ape Punks"
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/Footer.tsx",

@@ -20,8 +20,8 @@ export default function Home() {
         <Flex direction="column" gap="4" width="100%" px="4" style={{ maxWidth: '900px', minWidth: '900px' }}>
           <Box position="relative" height="350px" width="100%" mt="8" mb="8">
             <Image
-              src="/ap-banner.png"
-              alt="MAPC Logo"
+              src="/ap-banner.gif"
+              alt="AP Logo"
               fill
               style={{ objectFit: "cover" }}
               className="rounded-lg"
@@ -46,7 +46,7 @@ export default function Home() {
           <Box position="relative" height="250px" width="100%" mt="6" mb="8">
             <Image
               src="/banner1.gif"
-              alt="MAPC Banner 1"
+              alt="AP Banner 1"
               fill
               style={{ objectFit: "cover" }}
               className="rounded-lg"
@@ -56,7 +56,7 @@ export default function Home() {
           <Box position="relative" height="300px" width="100%" mb="8">
             <Image
               src="/banner_1.gif"
-              alt="MAPC Banner 2"
+              alt="AP Banner 2"
               fill
               style={{ objectFit: "cover" }}
               className="rounded-lg"
