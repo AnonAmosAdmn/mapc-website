@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Monad Ape Punks Club",
-  description: "Monad Ape Punks Club (MAPC) - A limited-edition NFT collection blending the rebellious spirit of CryptoPunks with the alpha energy of Bored Apes, powered by Monad's ultra-fast, low-cost blockchain.",
+  title: "Ape Punks",
+  description: "Ape Punks(AP) - A limited-edition NFT collection blending the rebellious spirit of CryptoPunks with the alpha energy of Bored Apes, powered by Monad's ultra-fast, low-cost blockchain.",
 };
 
 export default function RootLayout({
@@ -32,7 +32,7 @@ export default function RootLayout({
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Monad Ape Punks Club</title>
+        <title>Ape Punks</title>
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} bg-black`}>
         <Theme 
