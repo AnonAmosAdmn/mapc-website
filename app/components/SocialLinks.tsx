@@ -38,17 +38,6 @@ export default function SocialLinks() {
                 </IconButton>
             </RadixLink>
 
-            <RadixLink href="https://www.facebook.com/MAPC" target="_blank" rel="noopener noreferrer">
-                <IconButton variant="outline" size="4">
-                    <FacebookIcon />
-                </IconButton>
-            </RadixLink>
-
-            <RadixLink href="https://www.instagram.com/MAPC" target="_blank" rel="noopener noreferrer">
-                <IconButton variant="outline" size="4">
-                    <InstagramIcon />
-                </IconButton>
-            </RadixLink>
         </Flex>
     );
 }
